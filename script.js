@@ -17,10 +17,10 @@ function generatePassword() {
     console.log(howLong)
 
   
-  const Lower = window.confirm("Do you want to include lowercases? If don't, click 'Cancel' button.");
-  const Upper = window.confirm("Do you want to include uppercases? If don't, click 'Cancel' button.")
-  const Numbers = window.confirm("Do you want to include numbers? If don't, click 'Cancel' button.")
-  const Specials = window.confirm("Do you want to include special characters? If don't, click 'Cancel' button.")
+  const Lower = window.confirm("Do you want to include lowercases? If not, click 'Cancel' button.");
+  const Upper = window.confirm("Do you want to include uppercases? If not, click 'Cancel' button.")
+  const Numbers = window.confirm("Do you want to include numbers? If not, click 'Cancel' button.")
+  const Specials = window.confirm("Do you want to include special characters? If not, click 'Cancel' button.")
 
 
   const typesCount = Lower + Upper + Numbers + Specials;
